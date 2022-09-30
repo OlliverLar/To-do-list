@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  </head>
+  <body class="container">
+    <header>
+      <h2 class="headline">Min "Todo" lista</h2>
+    </header>
+    <div class="main">
+      <p id="message">Skriv något här!</p>
+      <form>
+        <input type="text" placeholder="Ny Todo..."></input>
+        <button><i class="fas fa-plus-square"></i></button>
+      </form>
+      <p id="textOne">Ej klara</p>
+      <div class="todoList">
+        <ul></ul>
+        <a class="clearAll">Rensa allt</a>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
